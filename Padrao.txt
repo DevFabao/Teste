@@ -1,0 +1,4 @@
+Cores:
+#800080 - Purple
+#3f3f3f - Semi-dark
+#111111 - Dark

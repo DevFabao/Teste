@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color:#3f3f3f;
+
+}
+
+
+nav.menu-lateral{
+    width: 70px;
+    height: 100%;
+    background-color: #111111;
+    padding: 40px 0 40 1%;
+    box-shadow: 3px 0 0 #800080;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    color:azure;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu:hover{
+    background:#800080;
+}
+ul li.item-menu{
+    transition: .2s;
+}
+
+
+ul li.item-menu a{
+    color:azure ;
+    text-decoration:none ;
+    font-size: 20px; 
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 10px;
+    line-height: 40px ;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+/* ^ Menu Lateral ^ */
+
+/* v Tabela v */
+
+
+.form{
+    background-color:#bea2be;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+h1{
+    margin: 30px;
+}
+p{
+    align-content: center;
+}
+
+
+.novaSolicitacao,
+.submit{
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.novaSolicitacao,
+.submit:hover{
+    transition: .2s;
+    background-color: #800080;
+}
+
+.data{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
